@@ -24,7 +24,7 @@ Quantum teleportation is a process that allows a quantum state to be transferred
 1. **Prepare Entanglement:**
 	- The sender and receiver share an entangled pair of qubits, initialized in one of the four Bell states $(|\Phi^+\rangle, |\Phi^-\rangle, |\Psi^+\rangle, |\Psi^-\rangle)$ chosen randomly.
 2. **Encode the Message:**
-	- The message qubit is entangled with one of the sender's qubits. If the message bit is 1, an $X-$gate is applied to the message qubit, otherwise, no operation is performed.
+	- The message qubit is entangled with one of the sender's qubits. If the message bit is 1, an $X-$ gate is applied to the message qubit, otherwise, no operation is performed.
 3. **Teleportation:**
 	- The sender applies a $CNOT$-gate between the message qubit and their entangled qubit, followed by a Hadamard gate on the message qubit.
 	- The sender measures the message qubit and their entangled qubit, resulting in two classical bits $(c_1, c_2)$.
