@@ -134,6 +134,7 @@ user_input = input("Enter a message to be teleported: ")
 # Step 2: Convert the string to binary
 binary_data = string_to_binary(user_input)
 print("\nBinary Representation:\n", binary_data)
+global_received_bits = []
 
 print("\n\nA sample representation of the teleportation circuit (default bit is 0):")
 
