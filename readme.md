@@ -29,7 +29,7 @@ Quantum teleportation is a process that allows a quantum state to be transferred
 	- The sender applies a $CNOT$-gate between the message qubit and their entangled qubit, followed by a Hadamard gate on the message qubit.
 	- The sender measures the message qubit and their entangled qubit, resulting in two classical bits $(c_1, c_2)$.
 4. **Corrections and Reconstruction:**
-	- The receiver uses the classical bits to apply $X-$ and $Z-$gates on their qubit, reconstructing the original quantum state.
+	- The receiver uses the classical bits to apply $X-$ and $Z-$ gates on their qubit, reconstructing the original quantum state.
 5. **Repeat for Each Bit:**
 	- Each bit of the binary message undergoes the teleportation process, and the binary data is reconstructed into readable text.
 #### View of a Sample Quantum Circuit
