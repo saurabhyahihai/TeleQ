@@ -49,7 +49,7 @@ This circuit teleports 0 using the $|\Phi^+\rangle$ state. $q_2, q_1, q_0$ and $
 
 ## Files
 This repository includes:
-1. A Jupyter Notebook with the application implmentation.
+1. A Jupyter Notebook with the application implementation.
 2. A Python executable file with the application implementation.
 3. An HTML file containing the preview of the Jupyter Notebook.
 4. A quantum circuit image, for embedding into this markdown file.
